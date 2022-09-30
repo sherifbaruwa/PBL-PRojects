@@ -8,9 +8,6 @@ Two Ubuntu Vitrual Machines (VMs) are set up on the local machine. One is Ubutu 
 
 ## Step 1: On the client machine
 
----
-
-
 Change directory to the Desktop and create a folder named Shell
 
 `cd Desktop/ && mkdir Shell && cd Shell`
@@ -100,8 +97,6 @@ Note: Replace the remote details with the actual details.
 
 ## Step 2
 
----
-
 **ssh** into the remote server and confirm if the directory was copied successfully: `ssh remotename@remoteip`
 
 ![alt text](/img/directory-confirmation.png)
@@ -185,8 +180,6 @@ Confirm all users have been created `ls -l /home/`
 ![alt text](/img/list-users.png)
 
 ## Step 3
-
----
 
 Test a few of users randomly to confirm if they can connect to the server using the private key and the public key.
 
